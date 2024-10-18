@@ -16,7 +16,13 @@ nextBtn.addEventListener('click', ()=>{
 });
 
 prevBtn.addEventListener('click', ()=>{
+  currentActive --;
 
+  if(currentActive < 1 ){
+    currentActive = 1;
+  }
+
+  updateStep();
 });
 
 function updateStep(){

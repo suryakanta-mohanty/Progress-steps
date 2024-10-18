@@ -102,3 +102,22 @@ body{
 .btn button:disabled:active{
   opacity: unset;
 }
+
+footer{
+  position: absolute;
+  top: 90%;
+  
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+  padding: 8px 20px;
+  border-radius: 20px;
+  transition: 0.15s ease;
+}
+
+footer a:hover{
+  background-color: black;
+  color: white;
+}

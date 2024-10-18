@@ -65,6 +65,7 @@ body{
 .steps.active{
   border-color: var(--border_active_col);
   color: var(--border_active_col);
+  transition: 0.7s ease-in-out;
 }
 
 .progress_bar{
@@ -75,6 +76,7 @@ body{
   top: 50%;
   transform: translateY(-50%);
   border-radius: 20px;
+  transition: 0.4s ease-in-out;
 }
 
 .btn button{
@@ -82,7 +84,7 @@ body{
   margin: 0 5px;
   cursor: pointer;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   background: var(--border_active_col);
   color: white;
   
